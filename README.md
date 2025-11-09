@@ -115,8 +115,3 @@ The semantic cache typically achieves:
 - Redis key format: `views:post:{post_id}`
 - Database sync occurs when `view_count % 10 == 0`
 - Maintains consistency between Redis cache and SQLite database
-
-## License
-
-This project is part of a Distributed Systems assignment.
-
